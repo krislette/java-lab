@@ -8,24 +8,16 @@ public class Main {
     
     public static void main(String[] args) {
         // Si constructor yung gumagawa/nagi-initialize ng object, hence the name "constructor".
-        for (int i = 0; i < 5; i++) {
-            System.out.print("Name: ");
-            String strName = input.nextLine();
-    
-            System.out.print("Price: ");
-            float fltPrice = input.nextFloat();
-    
-            Product prod = new Product(strName, fltPrice);
-        }
+        // System.out.print("Name: ");
+        // String strName = input.nextLine();
 
-        for (int i = 0; i < 5; i++) {
-            System.out.println("Product " + (i + 1));
-            System.out.println(prod.strName);
-            System.out.println(prod.strName);
-        }
-        
-        // I have to learn how to incorporate ARRAYS with this...
-        // Because there's something WRONG!!!
+        // System.out.print("Price: ");
+        // float fltPrice = input.nextFloat();
+
+        // Product prod = new Product(strName, fltPrice);        
+
+        Character characterRegina = new Character("Regina", "Hi bitch!", 100, 50, 10);
+        characterRegina.talkTo("Acelle");
     }
 
 }
