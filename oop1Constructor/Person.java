@@ -3,10 +3,10 @@ package oop1Constructor;
 public class Person {
     
     // Declaring the global variables.
-    String strFirstName;
-    String strLastName;
-    char chrSex;
-    int intAge;
+    public String strFirstName;
+    public String strLastName;
+    public char chrSex;
+    public int intAge;
 
     Person(String strFirstName, String strLastName, char chrSex, int intAge) {
         // Constructor is a METHOD and it should be named after the CLASS NAME.
