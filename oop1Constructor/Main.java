@@ -9,6 +9,7 @@ public class Main {
     public static void main(String[] args) {
         // javac oop1Constructor/Main.java oop1Constructor/Character.java oop1Constructor/Person.java oop1Constructor/Product.java
         // The code above is used to compile multiple .java files at once, outside the folder.
+        // From now on, I have to practice compiling EVERY SINGLE TIME.
 
         // Si constructor yung gumagawa/nagi-initialize ng object, hence the name "constructor".
         System.out.print("Name: ");
