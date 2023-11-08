@@ -47,6 +47,9 @@ public class Main {
         // Get the NEW USER ID.
         int intNewUserID = Acelle.getUserID();
         System.out.println("New User ID: " + intNewUserID);
+
+        // To make something READ-ONLY: use GETTERS only and do not implement setters.
+        // To make something WRITE-ONLY: use SETTERS only and do not implement getters.
     }
 
 }
