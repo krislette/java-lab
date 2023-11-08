@@ -29,4 +29,29 @@ public class User {
 
     // NOTE: Yung gumagawa na nung pags-set at pagg-get ay yung sarili niyang class, hindi na si main. 
     // That means more security! 
+
+    // Getter for username, no setter because we don't want it to be rewritten.
+    String getUserName() {
+        return userName;
+    }
+
+    // SETTER for FIRST NAME.
+    void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    // GETTER for FIRST NAME.
+    String getFirstName() {
+        return firstName;
+    }
+
+    // SETTER for LAST NAME.
+    void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    // GETTER for LAST NAME.
+    String getLastName() {
+        return lastName;
+    }
 }
