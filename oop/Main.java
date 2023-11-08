@@ -1,4 +1,4 @@
-package oop1Constructor;
+package oop;
 
 import java.util.Scanner;
 
