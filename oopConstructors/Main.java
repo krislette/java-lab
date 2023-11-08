@@ -29,9 +29,24 @@ public class Main {
         // Person Acelle = new Person("Acelle", "Rosales", 'F', 18);
         // System.out.println(Acelle.strLastName);
 
-        Student Acelle = new Student("Acelle", "Rosales", 2, "BSCS", 5, 95.5f, 98.8f);
-        Acelle.introduceSelf();
-        Acelle.evaluateGrade();
+        // Student Acelle = new Student("Acelle", "Rosales", 2, "BSCS", 5, 95.5f, 98.8f);
+        // Acelle.introduceSelf();
+        // Acelle.evaluateGrade();
+
+        // Encapsulation.
+        User Acelle = new User(202209133, "krislette", "Acelle", "Rosales");
+        // We use GETTERS and SETTERS in order to access ENCAPSULATED data.
+
+        // Get the existing USER ID.
+        int intUserID = Acelle.getUserID();
+        System.out.println(intUserID);
+
+        // Sets a new USER ID.
+        Acelle.setUserID(202209058);
+        
+        // Get the NEW USER ID.
+        int intNewUserID = Acelle.getUserID();
+        System.out.println(intNewUserID);
     }
 
 }
