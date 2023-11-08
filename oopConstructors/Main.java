@@ -39,14 +39,14 @@ public class Main {
 
         // Get the existing USER ID.
         int intUserID = Acelle.getUserID();
-        System.out.println(intUserID);
+        System.out.println("New User ID: " + intUserID);
 
         // Sets a new USER ID.
         Acelle.setUserID(202209058);
         
         // Get the NEW USER ID.
         int intNewUserID = Acelle.getUserID();
-        System.out.println(intNewUserID);
+        System.out.println("New User ID: " + intNewUserID);
     }
 
 }
