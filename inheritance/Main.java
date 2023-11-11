@@ -13,7 +13,7 @@ public class Main {
         // Person t1 = new Toddler("Krislette", "Street", 3, "Coding");
         // Person k1 = new Kid("Rosales", "Closeted", 8, "iDate", 3);
         
-        // ^^^ The above code is what we call polymorphism ^^^ //
+        // ^^^ The above code is what we call polymorphism. ^^^ //
         
         
         // p1.strName = "Acelle";
