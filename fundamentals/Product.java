@@ -1,4 +1,4 @@
-package oopConstructors;
+package fundamentals;
 
 public class Product {
 

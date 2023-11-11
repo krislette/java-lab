@@ -1,4 +1,4 @@
-package oopConstructors;
+package fundamentals;
 
 public class User {
     
@@ -54,4 +54,5 @@ public class User {
     String getLastName() {
         return lastName;
     }
+    
 }
