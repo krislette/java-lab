@@ -7,7 +7,7 @@ public class Main {
         Toddler t1 = new Toddler("Krislette", "Street", 3, "Coding");
         Kid k1 = new Kid("Rosales", "Closeted", 8, "iDate", 3);
         
-        // Instead of doign lines 6 to 8...
+        // Instead of doing lines 6 to 8...
         // We can instantiate better using the superclass.
         // Person p1 = new Person("Acelle", "Bading", 19);
         // Person t1 = new Toddler("Krislette", "Street", 3, "Coding");
