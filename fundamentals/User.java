@@ -22,7 +22,7 @@ public class User {
 
     // Setter is NOT void because we RETURN a VALUE.
     // It is a method used to get encapsulated variables.
-    // We get the VALUE not the VARIABLE so that encapsulates the date <- emphasis on this.
+    // We get the VALUE not the VARIABLE so that encapsulates the data. <- emphasis on this.
     int getUserID() {
         return userID;
     }
