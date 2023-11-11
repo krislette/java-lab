@@ -37,4 +37,4 @@ public abstract class Animal {
 // Gagawin lang nating abstract si superclass/general class.
 // Abstraction can be achieved in two ways
 //      1. Abstract Classes (Using `abstract` modifier).
-//      2. Interfacese (Using `implements` keyword).
+//      2. Interfaces (Using `implements` keyword).
