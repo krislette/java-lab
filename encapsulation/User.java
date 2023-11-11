@@ -20,7 +20,7 @@ public class User {
         this.intUserID = intUserID;
     }
 
-    // Setter is NOT void because we RETURN a VALUES.
+    // Setter is NOT void because we RETURN a VALUE.
     // It is a method used to get encapsulated variables.
     // We get the VALUE not the VARIABLE so that encapsulates the date <- emphasis on this.
     int getintUserID() {
