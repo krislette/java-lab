@@ -1,5 +1,5 @@
 # Repository Information
-This repository functions as a comprehensive code collection for my C projects, encompassing previous, present, and upcoming works.
+This repository serves as a comprehensive code collection for my Object-Oriented Programming (OOP) studies at PUP, with detailed notes accompanying each code snippet.
 # Ongoing Course
 1. Object-Oriented Programming
 # Additional Information
