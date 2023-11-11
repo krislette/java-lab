@@ -40,5 +40,52 @@ public class Employee {
     }
 
     // From this point onwards, I'll create setters and getters because I love pain.
+    String getFirstName() {
+        return strFirstName;
+    }
+    
+    void setFirstName(String strFirstName) {
+        this.strFirstName = strFirstName;
+    }
+    
+    String getLastName() {
+        return strLastName;
+    }
+    
+    void setLastName(String strLastName) {
+        this.strLastName = strLastName;
+    }
+
+    String getTitle() {
+        return strTitle;
+    }
+
+    void setTitle(String strTitle) {
+        this.strTitle = strTitle;
+    }
+
+    String getAddress() {
+        return strAddress;
+    } 
+
+    void setAddress(String strAddress) {
+        this.strAddress = strAddress;
+    } 
+
+    String getSex() {
+        return strSex;
+    }
+
+    void setSex(String strSex) {
+        this.strSex = strSex;
+    }
+
+    int getAge() {
+        return intAge;
+    }
+
+    void setAge(int intAge) {
+        this.intAge = intAge;
+    }
 
 }
