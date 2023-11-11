@@ -15,3 +15,5 @@ public class Kid extends Toddler {
     }
 
 }
+
+// This is another SUBCLASS. We use `extends` keyword in order to INHERIT from the TODDLER subclass.
