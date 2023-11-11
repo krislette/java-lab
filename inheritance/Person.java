@@ -5,6 +5,19 @@ public class Person {
     String strName, strSex;
     int intAge;
 
+    // Kapag ayaw mo nang pilitin ka ng JVM to make constructors sa subclasses...
+    // Make this empty constructor.
+    Person() {
+        // Explicit Constructor.
+    }
+
+    // Implicit Constructor // Kasi may arguments.
+    Person(String strName, String strSex, int intAge) {
+        this.strName = strName;
+        this.strSex = strSex;
+        this.intAge = intAge;
+    }
+
     void checkStatus() {
         System.out.println("Name: " + strName);
         System.out.println("Sex: " + strSex);
