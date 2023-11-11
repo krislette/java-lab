@@ -28,9 +28,13 @@ public abstract class Animal {
 
 }
 
+// Abstraction is an OOP technique that hides certain details and only shows important information.
 // As you can see, we used the `abstract` keyword on the class declaration.
 // That mean this is an ABSTRACT class.
 // We make a GENERAL information abstract para hindi na natin sya i-instantiate. 
 // In short, ih-hide na natin sya.
 // Usage: Every time na may gusto tayong PILITING i-implement na method sa SUBCLASSES natin, we use abstraction.
 // Gagawin lang nating abstract si superclass/general class.
+// Abstraction can be achieved in two ways
+//      1. Abstract Classes (Using `abstract` modifier).
+//      2. Interfacese (Using `implements` keyword).
