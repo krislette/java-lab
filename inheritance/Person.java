@@ -7,7 +7,7 @@ public class Person {
 
     // Kapag ayaw mo nang pilitin ka ng JVM to make constructors sa subclasses...
     // Make this empty constructor.
-    // NOTE: Madalang lang gumamit ng explicit constructor and more no inherting attributes tayo.   
+    // NOTE: Madalang lang gumamit ng explicit constructor and more on inherting attributes tayo.   
     Person() {
         // Explicit Constructor.
     }
