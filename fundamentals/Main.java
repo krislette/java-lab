@@ -34,22 +34,30 @@ public class Main {
         // Acelle.evaluateGrade();
 
         // Encapsulation.
-        User Acelle = new User(202209133, "krislette", "Acelle", "Rosales");
-        // We use GETTERS and SETTERS in order to access ENCAPSULATED data.
+        // User Acelle = new User(202209133, "krislette", "Acelle", "Rosales");
+        // // We use GETTERS and SETTERS in order to access ENCAPSULATED data.
 
-        // Get the existing USER ID.
-        int intUserID = Acelle.getUserID();
-        System.out.println("New User ID: " + intUserID);
+        // // Get the existing USER ID.
+        // int intUserID = Acelle.getUserID();
+        // System.out.println("New User ID: " + intUserID);
 
-        // Sets a new USER ID.
-        Acelle.setUserID(202209058);
+        // // Sets a new USER ID.
+        // Acelle.setUserID(202209058);
         
-        // Get the NEW USER ID.
-        int intNewUserID = Acelle.getUserID();
-        System.out.println("New User ID: " + intNewUserID);
+        // // Get the NEW USER ID.
+        // int intNewUserID = Acelle.getUserID();
+        // System.out.println("New User ID: " + intNewUserID);
 
         // To make something READ-ONLY: use GETTERS only and do not implement setters.
         // To make something WRITE-ONLY: use SETTERS only and do not implement getters.
+
+        Employee e1 = new Employee();
+        Employee e2 = new Employee("Acelle", "Rosales", "Bading");
+        Employee e3 = new Employee("Regina", "Bonifacio", "UI/UX Lead", "Caloocan", "F", 19);
+
+        System.out.println(e2.getFirstName());
+        System.out.println(e1.getFirstName());
+        System.out.println(e3.getFirstName());
     }
 
 }
