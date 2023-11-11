@@ -1,4 +1,4 @@
-package polymoyphism;
+package polymorphism;
 
 public class Cat extends Animal {
     
