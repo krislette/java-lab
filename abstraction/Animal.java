@@ -25,7 +25,7 @@ public abstract class Animal {
     void setName(String strName) {
         this.strName = strName;
     } 
-
+    
 }
 
 // Abstraction is an OOP technique that hides certain details and only shows important information.
