@@ -19,6 +19,7 @@ public class Toddler extends Person {
     void checkStatus() {
         super.checkStatus(); // Overrides the checkStatus method from Person.
         // After this... we can add more functionality.
+        System.out.println("Favorite Game: " + strFavoriteGame);
     }
 
 }
