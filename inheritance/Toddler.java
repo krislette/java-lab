@@ -16,6 +16,11 @@ public class Toddler extends Person {
         System.out.println("Drinking Milk.");   
     }
 
+    void checkStatus() {
+        super.checkStatus(); // Overrides the checkStatus method from Person.
+        // After this... we can add more functionality.
+    }
+
 }
 
 // This is the SUBCLASS. We use `extends` keyword in order to INHERIT.
