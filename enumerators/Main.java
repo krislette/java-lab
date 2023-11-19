@@ -10,6 +10,9 @@ package enumerators;
 public class Main {
     
     public static void main(String[] args) {
+        // Enumerators represent things using WORDS.
+        // And we can put a value inside a WORD.
+
         // ENUM Syntax:
         // EnumName variableName = EnumName.FIELD;
 
@@ -39,6 +42,16 @@ public class Main {
                 break;
             }
         }
-    } 
+
+        USCurrency enumMoney = USCurrency.PENNY;
+        System.out.println(enumMoney.getValue());
+
+        USCurrency enumCoins[] = new USCurrency[4];
+
+        for (int i = 0; i < enumCoins.length; i++) {
+            enumCoins[i] = USCurrency.values()[i]; // <- STUDY THIS MORE!!!
+            System.out.println(enumCoins[i]);
+        }
+    }
 
 }
