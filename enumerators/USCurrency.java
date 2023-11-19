@@ -28,6 +28,10 @@ public enum USCurrency {
     public double getValue() {
         return dblValue;
     }
+
+    public String getName() {
+        return strName;
+    }
     
     // <NO SETTER>
 
