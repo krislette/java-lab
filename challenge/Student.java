@@ -1,4 +1,4 @@
-package chal;
+package challenge;
 
 public class Student {
     

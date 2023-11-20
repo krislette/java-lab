@@ -1,4 +1,4 @@
-package chal;
+package challenge;
 
 import java.util.Scanner;
 
