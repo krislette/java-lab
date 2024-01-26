@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 class ReadFromFile {
+
     public static void main(String[] args) {
         try {
             // Create fReader object of the file to read data  
@@ -22,4 +23,5 @@ class ReadFromFile {
             exception.printStackTrace();
         }
     }
+
 }
